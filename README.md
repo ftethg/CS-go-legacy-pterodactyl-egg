@@ -1,0 +1,1 @@
+# CS-go-legacy-pterodactyl-egg
