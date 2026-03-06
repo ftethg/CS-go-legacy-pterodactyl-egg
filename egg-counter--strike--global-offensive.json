@@ -16,7 +16,7 @@
         "ghcr.io\/pterodactyl\/games:source": "ghcr.io\/pterodactyl\/games:source"
     },
     "file_denylist": [],
-    "startup": ".\/srcds_run -game csgo -console -port {{SERVER_PORT}} +ip 0.0.0.0 +map {{SRCDS_MAP}} -strictportbind -norestart +sv_setsteamaccount {{STEAM_ACC}}",
+    "startup": ".\/srcds_run -game csgo -console -usercon -steam \ +map {{SRCDS_MAP}} \ -maxplayers_override 16 \ -tickrate 128 \ -port {{SERVER_PORT}} \ -secure \ +sv_lan 0 +sv_setsteamaccount {{STEAM_ACC}}",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"Connection to Steam servers successful\"\r\n}",
