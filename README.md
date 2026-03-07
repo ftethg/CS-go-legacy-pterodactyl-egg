@@ -6,7 +6,7 @@
 Данный гайд затрагивает не только запуск сервера кс го на pterodactyl panel!!!
 В гайде так же затрагивается настройки для запуска csgo сервера на linux
 
-##Pterodactyl
+#Pterodactyl
 
 Все что используется в гайде 
 Custom CS Go egg [url=github.com/ftethg/CS-go-legacy-pterodactyl-egg] Ссылка [/url]
@@ -26,12 +26,12 @@ no-lobby-reservatio [url=https://github.com/vanz666/NoLobbyReservation/releases/
 Для создания потребуется токен его делаем на app-id 4465480[url=https://steamcommunity.com/dev/managegameservers]тык[/url]
 Source AppID 740 в панели
 
-##Сборка сервера для запуска
+#Сборка сервера для запуска
 После загрузки всех файлов .
 Заходим в файлы сервера папка /bin
 ищем файл libgcc_s.so.1  и переименовываем в libgcc_s.so.1.old
 
-##Дальше 
+#Дальше 
 Заходим в папку /csgo и в файле steam.inf изменяем значение appID на 4465480
 
 Если у вас не показываются файлы.
