@@ -5,8 +5,8 @@
         "update_url": null
     },
     "exported_at": "2026-03-06T14:11:05+01:00",
-    "name": "Counter-Strike: Global Offensive",
-    "author": "support@pterodactyl.io",
+    "name": "Counter-Strike: Global Offensive Legasy",
+    "author": "ftethg",
     "description": "Counter-Strike: Global Offensive is a multiplayer first-person shooter video game developed by Hidden Path Entertainment and Valve Corporation.",
     "features": [
         "gsl_token",
